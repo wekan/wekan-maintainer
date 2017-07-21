@@ -11,12 +11,14 @@ tx pull -f -l eu
 tx pull -f -l fa
 tx pull -f -l fi
 tx pull -f -l fr
+tx pull -f -l gl
 tx pull -f -l he
 tx pull -f -l hu_HU
 tx pull -f -l id_ID
 tx pull -f -l it
 tx pull -f -l ja
 tx pull -f -l ko
+tx pull -f -l nl
 tx pull -f -l no
 tx pull -f -l pl
 tx pull -f -l pt_BR
