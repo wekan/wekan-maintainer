@@ -15,13 +15,13 @@ cd ~/repos
 #echo "Starting meteor ${METEOR_RELEASE} installation...   \n"
 #chown wekan:wekan ./install_meteor.sh 
 #sh ./install_meteor.sh
-mkdir -p ~/.meteor/packages
-cd ~/.meteor/packages
+mkdir -p ~/repos/wekan/packages
+cd ~/repos/wekan/packages
 rm -rf kadira-flow-router
 rm -rf meteor-useraccounts-core
 git clone https://github.com/wekan/flow-router.git kadira-flow-router
 git clone https://github.com/meteor-useraccounts/core.git meteor-useraccounts-core
-sed -i 's/api\.versionsFrom/\/\/api.versionsFrom/' /home/wekan/.meteor/packages/meteor-useraccounts-core/package.js
+sed -i 's/api\.versionsFrom/\/\/api.versionsFrom/' ~/repos/wekan/packages/meteor-useraccounts-core/package.js
 cd ~/repos/wekan
 
 rm -rf node_modules
