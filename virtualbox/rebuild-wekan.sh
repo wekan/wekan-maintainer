@@ -1,12 +1,13 @@
-sudo rm -rf /usr/local/lib/node_modules
-sudo rm -rf ~/.npm
-sudo apt install build-essential c++ capnproto nodejs nodejs-legacy npm git curl
-sudo npm -g install n
-sudo n 4.8.4
-sudo npm -g install npm@4.6.1
-sudo npm -g install node-gyp
-sudo npm -g install node-pre-gyp
-sudo npm -g install fibers@1.0.15
+## Most of these are uncommented, because they are already installed.
+#sudo rm -rf /usr/local/lib/node_modules
+#sudo rm -rf ~/.npm
+#sudo apt install build-essential c++ capnproto nodejs nodejs-legacy npm git curl
+#sudo npm -g install n
+#sudo n 4.8.4
+#sudo npm -g install npm@4.6.1
+#sudo npm -g install node-gyp
+#sudo npm -g install node-pre-gyp
+#sudo npm -g install fibers@1.0.15
 sudo rm -rf wekan
 git clone https://github.com/wekan/wekan
 cd ~/repos

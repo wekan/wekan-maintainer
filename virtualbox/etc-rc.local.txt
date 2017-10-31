@@ -12,6 +12,6 @@
 # By default this script does nothing.
 
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
-sudo -H -u wekan bash -c '/home/wekan/repos/run-wekan.sh & > /dev/null 2>&1'
+sudo -H -u wekan bash -c '/home/wekan/repos/start-wekan.sh'
 
 exit 0

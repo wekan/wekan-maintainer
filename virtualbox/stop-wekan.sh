@@ -1,1 +1,1 @@
-sudo pkill -f run-wekan.sh
+pkill -f "node main.js"
