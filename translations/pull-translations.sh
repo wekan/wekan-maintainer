@@ -6,7 +6,10 @@ tx pull -f -l cs
 tx pull -f -l de
 tx pull -f -l eo
 tx pull -f -l en_GB
+#Greek:
+tx pull -f -l el
 tx pull -f -l es
+tx pull -f -l es_AR
 tx pull -f -l eu
 tx pull -f -l fa
 tx pull -f -l fi
