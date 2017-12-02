@@ -3,7 +3,7 @@
 #sudo rm -rf ~/.npm
 #sudo apt install build-essential c++ capnproto nodejs nodejs-legacy npm git curl
 #sudo npm -g install n
-#sudo n 4.8.4
+#sudo n 4.8.6
 #sudo npm -g install npm@4.6.1
 #sudo npm -g install node-gyp
 #sudo npm -g install node-pre-gyp
