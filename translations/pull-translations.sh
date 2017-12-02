@@ -21,6 +21,7 @@ tx pull -f -l id_ID
 tx pull -f -l it
 tx pull -f -l ja
 tx pull -f -l ko
+tx pull -f -l lv_LV
 tx pull -f -l nl
 tx pull -f -l no
 tx pull -f -l pl
