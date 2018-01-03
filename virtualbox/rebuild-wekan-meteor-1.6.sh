@@ -9,12 +9,12 @@ do
             echo "Installing Wekan dependencies."
             sudo rm -rf /usr/local/lib/node_modules
             sudo rm -rf ~/.npm
-            sudo apt -y install build-essential c++ capnproto nodejs nodejs-legacy npm git curl
+            sudo apt -y install build-essential c++ capnproto npm git curl
             sudo npm -g install n
             ## Using Node.js 6.12 with Meteor 1.6
             sudo n 6.12
             ## Latest npm with Meteor 1.6
-            sudo npm -g install npm@5.6.0 
+            sudo npm -g install npm@5.6.0
             sudo npm -g install node-gyp
             sudo npm -g install node-pre-gyp
             # Latest fibers with Meteor 1.6

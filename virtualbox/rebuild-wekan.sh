@@ -1,7 +1,7 @@
 ## Most of these are uncommented, because they are already installed.
 #sudo rm -rf /usr/local/lib/node_modules
 #sudo rm -rf ~/.npm
-#sudo apt install build-essential c++ capnproto nodejs nodejs-legacy npm git curl
+#sudo apt install build-essential c++ capnproto npm git curl
 #sudo npm -g install n
 #sudo n 4.8.6
 #sudo npm -g install npm@4.6.1
