@@ -33,9 +33,10 @@ cp -f fix-download-unicode/cfs_access-point.txt .build/bundle/programs/server/pa
 sed -i "s|build\/Release\/bson|browser_build\/bson|g" ~/repos/wekan/.build/bundle/programs/server/npm/node_modules/meteor/cfs_gridfs/node_modules/mongodb/node_modules/bson/ext/index.js
 cd ~/repos/wekan/.build/bundle/programs/server/npm/node_modules/meteor/npm-bcrypt
 rm -rf node_modules/bcrypt
-npm install bcrypt
+meteor npm install --save bcrypt
 cd ~/repos/wekan/.build/bundle/programs/server
 rm -rf node_modules
 npm install
+meteor npm install --save bcrypt
 cd ~/repos
 echo Done.
