@@ -18,6 +18,7 @@ tx pull -f -l gl
 tx pull -f -l he
 tx pull -f -l hu_HU
 tx pull -f -l id_ID
+tx pull -f -l ig
 tx pull -f -l it
 tx pull -f -l ja
 tx pull -f -l ko
