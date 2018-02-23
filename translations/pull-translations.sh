@@ -1,5 +1,6 @@
 cd ~/repos/wekan
 tx pull -f -l ar
+tx pull -f -l bg_BG
 tx pull -f -l br
 tx pull -f -l ca
 tx pull -f -l cs
