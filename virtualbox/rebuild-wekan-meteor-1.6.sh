@@ -12,7 +12,7 @@ do
             ## Using Node.js 6.12 with Meteor 1.6
             sudo n 8.9.3
             ## Latest npm with Meteor 1.6
-            sudo npm -g install npm@5.1.1
+            sudo npm -g install npm@5.5.1
             sudo npm -g install node-gyp
             # Latest fibers with Meteor 1.6
             sudo npm -g install fibers@2.0.0
