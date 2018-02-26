@@ -7,18 +7,13 @@ do
     case $opt in
         "First build of Wekan")
             echo "Installing Wekan dependencies."
-            #sudo rm -rf /usr/local/lib/node_modules
-            #sudo rm -rf ~/.npm
-            # g++
-            #-------
-            sudo apt -y install build-essential capnproto npm git curl
+            sudo apt -y install build-essential npm git curl
             sudo npm -g install n
             ## Using Node.js 6.12 with Meteor 1.6
             sudo n 8.9.3
             ## Latest npm with Meteor 1.6
             sudo npm -g install npm@5.1.1
             sudo npm -g install node-gyp
-            #sudo npm -g install node-pre-gyp
             # Latest fibers with Meteor 1.6
             sudo npm -g install fibers@2.0.0
             # You need to install Meteor, if it's not yet installed
