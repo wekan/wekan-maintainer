@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo "Supported: Debian 9."
+echo
+echo "Note: If you use other locale than en_US.UTF-8 , you need to additionally install en_US.UTF-8"
+echo "      with 'sudo dpkg-reconfigure locales' , so that MongoDB works correctly."
+echo "      You can still use any other locale as your main locale."
+echo
 PS3='Please enter your choice: '
 options=("Install Wekan dependencies" "Build Wekan" "Quit")
 select opt in "${options[@]}"
