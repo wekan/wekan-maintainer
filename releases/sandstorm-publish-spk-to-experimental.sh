@@ -1,1 +1,1 @@
-spk publish wekan-0.35.spk
+spk publish wekan-1.02.spk
