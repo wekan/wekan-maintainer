@@ -1,1 +1,1 @@
-meteor-spk pack wekan-1.02.spk
+meteor-spk pack wekan-1.11.spk
