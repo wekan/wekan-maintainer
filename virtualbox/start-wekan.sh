@@ -10,6 +10,7 @@
 	# https://github.com/wekan/wekan/wiki/Troubleshooting-Mail
 	# https://github.com/wekan/wekan-mongodb/blob/master/docker-compose.yml
 	export MAIL_URL='smtp://user:pass@mailserver.example.com:25/'
+	export MAIL_FROM='Wekan Support <support@example.com>'
 	# This is local port where Wekan Node.js runs, same as below on Caddyfile settings.
 	export PORT=80
 	node main.js & >> ~/repos/wekan.log
