@@ -95,7 +95,7 @@ do
 			echo "sed at macOS";
 			sed -i '' 's/api\.versionsFrom/\/\/api.versionsFrom/' ~/repos/wekan/packages/meteor-useraccounts-core/package.js
 		else
-			echo "sed at ${$OSTYPE}"
+			echo "sed at ${OSTYPE}"
 			sed -i 's/api\.versionsFrom/\/\/api.versionsFrom/' ~/repos/wekan/packages/meteor-useraccounts-core/package.js
 		fi
 
