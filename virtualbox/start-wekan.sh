@@ -16,9 +16,15 @@
 	# Wekan Export Board works when WITH_API='true'.
         # If you disable Wekan API, Export Board does not work.
 	export WITH_API='true'
-	# Optional: Integration with Matomo https://matomo.org that is installed to your server
-	# export MATOMO_ADDRESS='https://example.com/matomo'
+        ## Optional: Integration with Matomo https://matomo.org that is installed to your server
+        ## The address of the server where Matomo is hosted:
+        # export MATOMO_ADDRESS='https://example.com/matomo'
+        ## The value of the site ID given in Matomo server for Wekan
         # export MATOMO_SITE_ID='123456789'
+        ## The option do not track which enables users to not be tracked by matomo"
+        # export MATOMO_DO_NOT_TRACK='false'
+        ## The option that allows matomo to retrieve the username:
+        # export MATOMO_WITH_USERNAME='true'
 	node main.js & >> ~/repos/wekan.log
 	cd ~/repos
 #done
