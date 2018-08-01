@@ -13,6 +13,9 @@
 	export MAIL_FROM='Wekan Support <support@example.com>'
 	# This is local port where Wekan Node.js runs, same as below on Caddyfile settings.
 	export PORT=80
+	# Wekan Export Board works when WITH_API='true'.
+        # If you disable Wekan API, Export Board does not work.
+	export WITH_API='true'
 	node main.js & >> ~/repos/wekan.log
 	cd ~/repos
 #done
