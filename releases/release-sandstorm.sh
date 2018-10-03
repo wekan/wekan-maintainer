@@ -13,7 +13,7 @@ sudo chown user:user .meteor -R
 
 # Build Source
 cd ~/repos
-#./rebuild-release.sh
+./rebuild-release.sh
 
 # Build Sandstorm
 cd wekan

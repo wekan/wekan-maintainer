@@ -9,6 +9,9 @@ cd ~/repos
 sudo chown user:user wekan -R
 cd ~/
 sudo chown user:user .meteor -R
+#sudo chown user:user .cache/snapcraft -R
+sudo rm -rf .cache/snapcraft
+sudo chown user:user .config -R
 
 # Back
 cd ~/repos
