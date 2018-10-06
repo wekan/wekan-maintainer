@@ -24,8 +24,10 @@ mv wekan-$1.spk ../..
 rm -rf .meteor-spk
 
 # Build Snap
-sudo snapcraft
-scp wekan_$1_amd64.snap x2:/var/snap/wekan/common/releases.wekan.team/
-snapcraft push wekan_$1_amd64.snap
-mv wekan_$1_amd64.snap ..
 cd ~/repos
+./release-cleanup.sh
+./release-snap.sh $1
+#sudo snapcraft
+#scp wekan_$1_amd64.snap x2:/var/snap/wekan/common/releases.wekan.team/
+#snapcraft push wekan_$1_amd64.snap
+#mv wekan_$1_amd64.snap ..
