@@ -7,6 +7,8 @@ sudo rm -rf parts prime stage .meteor-spk
 mv wekan_* ..
 
 # Set permissions
+cd ~/
+sudo rm -rf .npm
 cd ~/repos
 sudo chown user:user wekan -R
 cd ~/
@@ -14,6 +16,9 @@ sudo chown user:user .meteor -R
 #sudo chown user:user .cache/snapcraft -R
 sudo rm -rf .cache/snapcraft
 sudo chown user:user .config -R
+
+# Install meteor
+curl https://install.meteor.com/ | sh
 
 # Build Source
 cd ~/repos

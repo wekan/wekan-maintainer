@@ -91,9 +91,8 @@ do
 		cd ~/repos/wekan/packages
 		git clone --depth 1 -b master https://github.com/wekan/flow-router.git kadira-flow-router
 		git clone --depth 1 -b master https://github.com/meteor-useraccounts/core.git meteor-useraccounts-core
-		# At wekan-rebuild-edge.sh:
-		#git clone --depth 1 -b master https://github.com/wekan/meteor-accounts-cas.git
-		#git clone --depth 1 -b master https://github.com/wekan/wekan-ldap.git
+		git clone --depth 1 -b master https://github.com/wekan/meteor-accounts-cas.git
+		git clone --depth 1 -b master https://github.com/wekan/wekan-ldap.git
 		if [[ "$OSTYPE" == "darwin"* ]]; then
 			echo "sed at macOS";
 			sed -i '' 's/api\.versionsFrom/\/\/api.versionsFrom/' ~/repos/wekan/packages/meteor-useraccounts-core/package.js

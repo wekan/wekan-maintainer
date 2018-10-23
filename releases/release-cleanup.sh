@@ -1,6 +1,8 @@
 # Usage: ./release.sh 1.36
 
 # Delete old stuff
+cd ~/
+sudo rm -rf .npm
 cd ~/repos/wekan
 sudo rm -rf parts prime stage .meteor-spk
 
