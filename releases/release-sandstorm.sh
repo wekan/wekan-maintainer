@@ -1,6 +1,7 @@
 # Usage: ./release.sh 1.36
 
 # Delete old stuff
+cd ~/repos
 ./release-cleanup.sh
 
 # Build Source
@@ -15,4 +16,5 @@ scp wekan-$1.spk x2w:/var/snap/wekan/common/releases.wekan.team/
 mv wekan-$1.spk ..
 
 # Delete old stuff
+cd ~/repos
 ./release-cleanup.sh

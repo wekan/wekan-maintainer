@@ -1,3 +1,5 @@
-# Example: Add tag to repo of new release
-git tag -a v1.11 -m "v1.11"
-git push origin v1.11
+# Add tag to repo of new release
+# Example: add-tag.sh v1.62
+
+git tag -a $1 -m "$1"
+git push origin $1
