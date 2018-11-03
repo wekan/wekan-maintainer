@@ -21,6 +21,9 @@ tx pull -f -l ka
 echo "German:"
 tx pull -f -l de
 
+echo "Hindi:"
+tx pull -f -l hi
+
 echo "Esperanto:"
 tx pull -f -l eo
 
