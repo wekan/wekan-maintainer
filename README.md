@@ -1,3 +1,9 @@
+# 2018-10-05 MOVED
+
+This repo content has moved to https://github.com/wekan/wekan/tree/edge
+- directory: releases
+- files: rebuild-wekan.sh, start-wekan.sh, etc.
+
 # Wekan Maintainer
 
 This repo and wiki is for Wekan's current and future
